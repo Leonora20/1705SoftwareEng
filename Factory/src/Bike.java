@@ -1,0 +1,6 @@
+public class Bike implements Vehicle {
+    @Override
+    public void changeTires() {
+        System.out.println("Changed 4 tires of Bike");
+    }
+}
